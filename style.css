@@ -1,0 +1,167 @@
+/* corpo */
+body {
+   font-family: Nunito, sans-serif; 
+   color:#4D243D;
+}
+h1, h2, h3 {
+    font-family: Asap, sans-serif; 
+    color:#351e2c;
+    font-size: 30px;
+}
+.botao {
+    color: #4D243D;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #c0b5bc;
+    font-size: .9em;
+    border-radius: 3px;
+}
+/* navegação */
+
+nav {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:bisque;
+}
+nav > a {
+    text-decoration:none;
+    color:#4D243D;
+    font-weight:800;
+    font-size:32px;
+    font-family: yellowtail, serif;
+}
+
+nav ul {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    list-style:none;
+    padding:0;
+    width:100%;
+}
+nav ul li {
+    text-align:center;
+    width:100%;
+}
+nav ul li a {
+    display:inline-block;
+    padding:10px 0;
+    width:100%;
+    text-decoration:none;
+    color:#4D243D;
+}
+/* cabeçalho */
+header {
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    background-image:url("../images/testebanner.gif");
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position:center;
+    color:antiquewhite;
+    text-align:center;
+    padding:20px;
+
+
+}
+header h1 {
+    color: #c0b5bc;
+    margin-bottom: 2em;
+}
+header p{
+    margin-bottom: 2em;
+}
+/* sobre */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color:#523c48;
+    color: antiquewhite;
+    
+}
+
+#sobre h2 {
+    color: #c0b5bc;
+    margin-bottom: 2em;
+    
+}
+#sobre p {
+   margin-bottom: 2.5em;
+   max-width:1000px; 
+}
+#sobre .botao {
+    background-color: antiquewhite;
+    color: #725b69;
+
+}
+/* serviços*/
+section .flex {
+    width: 100vw;
+    max-width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+    
+    
+    
+}
+
+section .serviços1  {
+    width: 280px;
+    
+    
+   
+}
+section .serviços2  {
+    margin: 10px;
+    width: 360px;
+    height: 260px;   
+}
+
+
+
+section .serviços2 img{
+    justify-content: center;
+    align-items: center;
+    padding: 5px 50px 5px 50px ;
+    margin: 10px;
+    width: 150px;
+}
+section .serviços, h2 {
+    flex:1;
+    text-align: center;
+    padding: 10px;
+   
+    
+}
+
+section .serviços,  a {
+    text-decoration:none;
+}
+
+
+
+/* portfolio*/
+#fotos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+#foto h2 {
+    margin-bottom: 20px;
+}
+#portfolio img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
